@@ -1,0 +1,5 @@
+adafruit_binascii
+adafruit_bus_device
+adafruit_framebuf
+adafruit_minimqtt
+sh1107_i2c

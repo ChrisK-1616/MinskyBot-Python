@@ -1,0 +1,27 @@
+# Project: MinskyBot
+# Device:  FeatherS2
+# File:    required_libs.txt
+# Author:  Chris Knowles
+
+# Use the hash symbol (#) to mark a line as a comment that will be ignored
+# when processing this "required_libs" file
+
+# Also blank (or whitespace only) lines are ignored in the same way
+
+# First line must be the path to the directory containing custom libraries
+G:\IoTLab\Microprocessors - Adafruit\CircuitPython Libraries Bundle\customlibs
+
+# Each subsequent entry is in the form XX|YY where:-
+#     XX is:-
+#       "AL" for an Adafruit library to download
+#       "CM" for a custom library as a single module
+#       "CP" for a custom library as a package
+#     YY is the name of the library required
+AL|adafruit_binascii
+AL|adafruit_bus_device
+AL|adafruit_crickit
+AL|adafruit_framebuf
+AL|adafruit_minimqtt
+AL|adafruit_pcf8523
+AL|adafruit_seesaw
+CM|sh1107_i2c
